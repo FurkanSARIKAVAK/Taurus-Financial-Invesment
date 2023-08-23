@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-image: url(assets/images/city.png);
+  background-size: auto;
+}
+
+.name {
+ color: rgb(221, 17, 17);
+ font-family: 'Selima', sans-serif;                                           
+}
+
+.main {
+  text-align: center;
+  margin-top: 50px;
+  flex: 1;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(4, 235, 216);
+}
+
+footer {
+  text-align: right;
+  color: rgb(4, 235, 216);
+}
+
+.card-text{
+  color: white;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
